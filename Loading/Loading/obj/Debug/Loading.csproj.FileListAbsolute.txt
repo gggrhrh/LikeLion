@@ -1,0 +1,7 @@
+C:\UnityYH\C#Study\LikeLion\LikeLion\Loading\Loading\bin\Debug\Loading.exe.config
+C:\UnityYH\C#Study\LikeLion\LikeLion\Loading\Loading\bin\Debug\Loading.exe
+C:\UnityYH\C#Study\LikeLion\LikeLion\Loading\Loading\bin\Debug\Loading.pdb
+C:\UnityYH\C#Study\LikeLion\LikeLion\Loading\Loading\obj\Debug\Loading.csproj.AssemblyReference.cache
+C:\UnityYH\C#Study\LikeLion\LikeLion\Loading\Loading\obj\Debug\Loading.csproj.CoreCompileInputs.cache
+C:\UnityYH\C#Study\LikeLion\LikeLion\Loading\Loading\obj\Debug\Loading.exe
+C:\UnityYH\C#Study\LikeLion\LikeLion\Loading\Loading\obj\Debug\Loading.pdb
