@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\UnityYH\\C#Study\\LikeLion\\LikeLion\\study3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D058C4EF-C673-420D-8A36-24DFBD1FB046}|study3\\study3.csproj|c:\\unityyh\\c#study\\likelion\\likelion\\study3\\study3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D058C4EF-C673-420D-8A36-24DFBD1FB046}|study3\\study3.csproj|solutionrelative:study3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\UnityYH\\C#Study\\LikeLion\\LikeLion\\study3\\study3\\Program.cs",
+              "RelativeDocumentMoniker": "study3\\Program.cs",
+              "ToolTip": "C:\\UnityYH\\C#Study\\LikeLion\\LikeLion\\study3\\study3\\Program.cs",
+              "RelativeToolTip": "study3\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T01:29:59.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
