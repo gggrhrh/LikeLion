@@ -1,0 +1,7 @@
+C:\UnityYH\C#Study\LikeLion\LikeLion\studty4\studty4\bin\Debug\studty4.exe.config
+C:\UnityYH\C#Study\LikeLion\LikeLion\studty4\studty4\bin\Debug\studty4.exe
+C:\UnityYH\C#Study\LikeLion\LikeLion\studty4\studty4\bin\Debug\studty4.pdb
+C:\UnityYH\C#Study\LikeLion\LikeLion\studty4\studty4\obj\Debug\studty4.csproj.AssemblyReference.cache
+C:\UnityYH\C#Study\LikeLion\LikeLion\studty4\studty4\obj\Debug\studty4.csproj.CoreCompileInputs.cache
+C:\UnityYH\C#Study\LikeLion\LikeLion\studty4\studty4\obj\Debug\studty4.exe
+C:\UnityYH\C#Study\LikeLion\LikeLion\studty4\studty4\obj\Debug\studty4.pdb
