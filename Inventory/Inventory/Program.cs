@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,32 +9,63 @@ namespace Inventory
 {
     class Program
     {
+        struct Item
+        {
+            public string ItemName;
+            public int ItemCount;
+
+            public void PrintItem()
+            {
+                Console.WriteLine($"{ItemName} (x{ItemCount})");
+            }
+        }
+
+
         const int MAX_ITEMS = 10;
 
-        static string[] itemNames = new string[MAX_ITEMS];
-        static int[] itemCounts = new int[MAX_ITEMS];
-
-
+        //static string[] itemNames = new string[MAX_ITEMS];
+        //static int[] itemCounts = new int[MAX_ITEMS];
+        static Item[] items = new Item[MAX_ITEMS];
+    
         static void AddItem(string name, int count)
         {
-            for (int i = 0; i < MAX_ITEMS; i++)
+            for(int i =0; i <items.Length; i++)
             {
-                if (itemNames[i] == name)
+                if (items[i].ItemName == name)
                 {
-                    itemCounts[i] += count;
+                    items[i].ItemCount += count;
+                    return;
+                }
+            }
+            for (int i = 0; i < items.Length; i++)
+            {
+                if (items[i].ItemName == null)
+                {
+                    items[i].ItemName = name;
+                    items[i].ItemCount = count;
                     return;
                 }
             }
 
-            for (int i = 0; i < MAX_ITEMS; i++)
-            {
-                if (itemNames[i] == null)
-                {
-                    itemNames[i] = name;
-                    itemCounts[i] = count;
-                    return;
-                }
-            }
+
+            //for (int i = 0; i < MAX_ITEMS; i++)
+            //{
+            //    if (itemNames[i] == name)
+            //    {
+            //        itemCounts[i] += count;
+            //        return;
+            //    }
+            //}
+
+            //for (int i = 0; i < MAX_ITEMS; i++)
+            //{
+            //    if (itemNames[i] == null)
+            //    {
+            //        itemNames[i] = name;
+            //        itemCounts[i] = count;
+            //        return;
+            //    }
+            //}
 
             Console.WriteLine("인벤토리가 가득 찼습니다.");
 
@@ -42,16 +74,16 @@ namespace Inventory
 
         static void RemoveItem(string name, int count)
         {
-            for (int i = 0; i < MAX_ITEMS; i++)
+            for(int i =0; i <items.Length; i++)
             {
-                if (itemNames[i] == name)
+                if (items[i].ItemName == name)
                 {
-                    if (itemCounts[i] >= count)
+                    if (items[i].ItemCount >= count)
                     {
-                        itemCounts[i] -= count;
-                        if (itemCounts[i] == 0)
+                        items[i].ItemCount -= count;
+                        if (items[i].ItemCount == 0)
                         {
-                            itemNames[i] = null;
+                            items[i].ItemName = null;
                         }
                         return;
                     }
@@ -63,6 +95,27 @@ namespace Inventory
                 }
             }
 
+            //for (int i = 0; i < MAX_ITEMS; i++)
+            //{
+            //    if (itemNames[i] == name)
+            //    {
+            //        if (itemCounts[i] >= count)
+            //        {
+            //            itemCounts[i] -= count;
+            //            if (itemCounts[i] == 0)
+            //            {
+            //                itemNames[i] = null;
+            //            }
+            //            return;
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("아이템 개수가 부족합니다!");
+            //            return;
+            //        }
+            //    }
+            //}
+
             Console.WriteLine("아이템을 찾을 수 없습니다!");
         }
 
@@ -71,14 +124,23 @@ namespace Inventory
             Console.WriteLine("현재 인벤토리 : ");
             bool isEmptry = true;
 
-            for(int i =0; i< MAX_ITEMS; i++)
+            for(int i =0; i<items.Length;i++)
             {
-                if (itemNames[i] != null)
+                if (items[i].ItemName != null)
                 {
-                    Console.WriteLine($"{itemNames[i]} (x{itemCounts[i]})");
+                    items[i].PrintItem();
                     isEmptry = false;
                 }
             }
+
+            //for(int i =0; i< MAX_ITEMS; i++)
+            //{
+            //    if (itemNames[i] != null)
+            //    {
+            //        Console.WriteLine($"{itemNames[i]} (x{itemCounts[i]})");
+            //        isEmptry = false;
+            //    }
+            //}
 
             if(isEmptry)
             {
@@ -90,6 +152,8 @@ namespace Inventory
 
         static void Main(string[] args)
         {
+
+
             AddItem("포션", 5);
             AddItem("칼", 1);
             AddItem("포션", 3);
