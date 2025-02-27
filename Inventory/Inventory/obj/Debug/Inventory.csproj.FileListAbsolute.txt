@@ -1,0 +1,7 @@
+C:\UnityYH\C#Study\LikeLion\LikeLion\Inventory\Inventory\bin\Debug\Inventory.exe.config
+C:\UnityYH\C#Study\LikeLion\LikeLion\Inventory\Inventory\bin\Debug\Inventory.exe
+C:\UnityYH\C#Study\LikeLion\LikeLion\Inventory\Inventory\bin\Debug\Inventory.pdb
+C:\UnityYH\C#Study\LikeLion\LikeLion\Inventory\Inventory\obj\Debug\Inventory.csproj.AssemblyReference.cache
+C:\UnityYH\C#Study\LikeLion\LikeLion\Inventory\Inventory\obj\Debug\Inventory.csproj.CoreCompileInputs.cache
+C:\UnityYH\C#Study\LikeLion\LikeLion\Inventory\Inventory\obj\Debug\Inventory.exe
+C:\UnityYH\C#Study\LikeLion\LikeLion\Inventory\Inventory\obj\Debug\Inventory.pdb
