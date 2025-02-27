@@ -1,0 +1,7 @@
+C:\UnityYH\C#Study\LikeLion\LikeLion\Game\Game\bin\Debug\Game.exe.config
+C:\UnityYH\C#Study\LikeLion\LikeLion\Game\Game\bin\Debug\Game.exe
+C:\UnityYH\C#Study\LikeLion\LikeLion\Game\Game\bin\Debug\Game.pdb
+C:\UnityYH\C#Study\LikeLion\LikeLion\Game\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+C:\UnityYH\C#Study\LikeLion\LikeLion\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\UnityYH\C#Study\LikeLion\LikeLion\Game\Game\obj\Debug\Game.exe
+C:\UnityYH\C#Study\LikeLion\LikeLion\Game\Game\obj\Debug\Game.pdb
