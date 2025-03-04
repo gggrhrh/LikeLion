@@ -161,9 +161,6 @@ namespace ShootingGame
             }
 
 
-
-
-
         }
 
         //미사일 그리기
@@ -240,7 +237,7 @@ namespace ShootingGame
                     }
                 }
             }
-        }
+        }//public void BulletDraw3()
 
         public void PlayerDraw()
         {
@@ -259,7 +256,7 @@ namespace ShootingGame
                 //문자열배열 출력
                 Console.WriteLine(player[i]);
             }
-        }
+        }//public void PlayerDraw()
 
         //충돌처리
         public void ClashEnemyAndBullet(Enemy enemy)
@@ -349,7 +346,7 @@ namespace ShootingGame
             Console.Write("Score : " + Score);
             Console.SetCursorPosition(63, 2);
             Console.Write("┗━━━━━━━━━━━━━━┛");
-        }
+        }//public void UIScore()
 
         //아이템 충돌시 양쪽 미사일 발사
         public void CrashItem()
@@ -386,11 +383,11 @@ namespace ShootingGame
                 }
             }
 
-        }
+        }//public void CrashItem()
 
 
 
-    }
+    }//class Player()
 
     public class Enemy //적 클래스
     {
@@ -452,9 +449,6 @@ namespace ShootingGame
 
 
         }
-
-
-
 
     }
 

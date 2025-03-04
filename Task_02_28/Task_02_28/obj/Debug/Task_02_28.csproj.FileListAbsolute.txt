@@ -1,0 +1,7 @@
+C:\UnityYH\C#Study\LikeLion\LikeLion\Task_02_28\Task_02_28\bin\Debug\Task_02_28.exe.config
+C:\UnityYH\C#Study\LikeLion\LikeLion\Task_02_28\Task_02_28\bin\Debug\Task_02_28.exe
+C:\UnityYH\C#Study\LikeLion\LikeLion\Task_02_28\Task_02_28\bin\Debug\Task_02_28.pdb
+C:\UnityYH\C#Study\LikeLion\LikeLion\Task_02_28\Task_02_28\obj\Debug\Task_02_28.csproj.AssemblyReference.cache
+C:\UnityYH\C#Study\LikeLion\LikeLion\Task_02_28\Task_02_28\obj\Debug\Task_02_28.csproj.CoreCompileInputs.cache
+C:\UnityYH\C#Study\LikeLion\LikeLion\Task_02_28\Task_02_28\obj\Debug\Task_02_28.exe
+C:\UnityYH\C#Study\LikeLion\LikeLion\Task_02_28\Task_02_28\obj\Debug\Task_02_28.pdb
