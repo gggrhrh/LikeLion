@@ -1,0 +1,7 @@
+C:\UnityYH\C#Study\LikeLion\LikeLion\TestRpg\TestRpg\bin\Debug\TestRpg.exe.config
+C:\UnityYH\C#Study\LikeLion\LikeLion\TestRpg\TestRpg\bin\Debug\TestRpg.exe
+C:\UnityYH\C#Study\LikeLion\LikeLion\TestRpg\TestRpg\bin\Debug\TestRpg.pdb
+C:\UnityYH\C#Study\LikeLion\LikeLion\TestRpg\TestRpg\obj\Debug\TestRpg.csproj.AssemblyReference.cache
+C:\UnityYH\C#Study\LikeLion\LikeLion\TestRpg\TestRpg\obj\Debug\TestRpg.csproj.CoreCompileInputs.cache
+C:\UnityYH\C#Study\LikeLion\LikeLion\TestRpg\TestRpg\obj\Debug\TestRpg.exe
+C:\UnityYH\C#Study\LikeLion\LikeLion\TestRpg\TestRpg\obj\Debug\TestRpg.pdb
